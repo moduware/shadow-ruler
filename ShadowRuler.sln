@@ -5,7 +5,23 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowRuler", "ShadowRuler\ShadowRuler.csproj", "{A924DA06-998C-44E6-8460-023EA0F1229A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowTester", "ShadowTester\ShadowTester.csproj", "{9C80AFBA-C150-4202-86F4-DE3B11E58941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowRuler.Windows", "ShadowRuller.Windows\ShadowRuler.Windows.csproj", "{01CF5AB6-B691-4619-A271-5E90D55DD0CA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ShadowRuler.Shared", "ShadowRuler.Shared\ShadowRuler.Shared.shproj", "{68855443-5881-4E80-83E0-47B0AD164C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowRuler.Droid", "ShadowRuler.Droid\ShadowRuler.Droid.csproj", "{620E286B-84F2-452B-9958-7BAC5DC1A823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowRuler.iOS", "ShadowRuler.iOS\ShadowRuler.iOS.csproj", "{1736AA21-3F4E-4A05-B6EF-6EFBC86EFC63}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ShadowRuler.Shared\ShadowRuler.Shared.projitems*{01cf5ab6-b691-4619-a271-5e90d55dd0ca}*SharedItemsImports = 4
+		ShadowRuler.Shared\ShadowRuler.Shared.projitems*{1736aa21-3f4e-4a05-b6ef-6efbc86efc63}*SharedItemsImports = 4
+		ShadowRuler.Shared\ShadowRuler.Shared.projitems*{620e286b-84f2-452b-9958-7bac5dc1a823}*SharedItemsImports = 4
+		ShadowRuler.Shared\ShadowRuler.Shared.projitems*{68855443-5881-4e80-83e0-47b0ad164c09}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -15,6 +31,22 @@ Global
 		{A924DA06-998C-44E6-8460-023EA0F1229A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A924DA06-998C-44E6-8460-023EA0F1229A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A924DA06-998C-44E6-8460-023EA0F1229A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C80AFBA-C150-4202-86F4-DE3B11E58941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C80AFBA-C150-4202-86F4-DE3B11E58941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C80AFBA-C150-4202-86F4-DE3B11E58941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C80AFBA-C150-4202-86F4-DE3B11E58941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CF5AB6-B691-4619-A271-5E90D55DD0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CF5AB6-B691-4619-A271-5E90D55DD0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CF5AB6-B691-4619-A271-5E90D55DD0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CF5AB6-B691-4619-A271-5E90D55DD0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620E286B-84F2-452B-9958-7BAC5DC1A823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620E286B-84F2-452B-9958-7BAC5DC1A823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620E286B-84F2-452B-9958-7BAC5DC1A823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620E286B-84F2-452B-9958-7BAC5DC1A823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1736AA21-3F4E-4A05-B6EF-6EFBC86EFC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1736AA21-3F4E-4A05-B6EF-6EFBC86EFC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1736AA21-3F4E-4A05-B6EF-6EFBC86EFC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1736AA21-3F4E-4A05-B6EF-6EFBC86EFC63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
