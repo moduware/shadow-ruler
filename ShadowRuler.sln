@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowRuler", "ShadowRuler\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowTester", "ShadowTester\ShadowTester.csproj", "{9C80AFBA-C150-4202-86F4-DE3B11E58941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowRuler.Windows", "ShadowRuller.Windows\ShadowRuler.Windows.csproj", "{01CF5AB6-B691-4619-A271-5E90D55DD0CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowRuler.Windows", "ShadowRuler.Windows\ShadowRuler.Windows.csproj", "{01CF5AB6-B691-4619-A271-5E90D55DD0CA}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ShadowRuler.Shared", "ShadowRuler.Shared\ShadowRuler.Shared.shproj", "{68855443-5881-4E80-83E0-47B0AD164C09}"
 EndProject

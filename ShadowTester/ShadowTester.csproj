@@ -49,13 +49,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ShadowRuler.Windows\ShadowRuler.Windows.csproj">
+      <Project>{01cf5ab6-b691-4619-a271-5e90d55dd0ca}</Project>
+      <Name>ShadowRuler.Windows</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ShadowRuler\ShadowRuler.csproj">
       <Project>{a924da06-998c-44e6-8460-023ea0f1229a}</Project>
       <Name>ShadowRuler</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ShadowRuller.Windows\ShadowRuler.Windows.csproj">
-      <Project>{01cf5ab6-b691-4619-a271-5e90d55dd0ca}</Project>
-      <Name>ShadowRuler.Windows</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
