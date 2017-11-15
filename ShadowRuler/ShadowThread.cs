@@ -28,7 +28,7 @@ namespace ShadowRuler
             _tasksList.Add(task);
             // Restarting thread
             //_waitHandle.Set();
-            _thread.Resume();
+            if(!_thread.Active) _thread.Resume();
         }
 
         private void TaskRunner()

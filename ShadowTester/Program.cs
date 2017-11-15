@@ -26,6 +26,15 @@ namespace ShadowTester
                 Thread.Sleep(5000);
                 Console.WriteLine("The work is done!");
             });
+            ShadowThreads.RunOnThread("worker", () =>
+            {
+                Console.WriteLine("The work 2 is done!");
+            });
+            ShadowThreads.RunOnThread("worker", () =>
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("The work 3 is done!");
+            });
             ShadowThreads.RunOnThread("houler", () =>
             {
                 while(true)

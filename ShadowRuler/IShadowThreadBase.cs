@@ -8,6 +8,8 @@ namespace ShadowRuler
 {
     public interface IShadowThreadBase
     {
+        bool Active { get; }
+
         IShadowThreadBase Create();
         void Init(Action action);
         void SetName(string threadName);

@@ -10,7 +10,10 @@ namespace ShadowTester
 {
     public class ShadowThreadBase : IShadowThreadBase
     {
+        public bool Active => _active;
+
         private Thread _thread;
+        private bool _active = false;
         private EventWaitHandle _waitHandle = new ManualResetEvent(initialState: false);
 
         public ShadowThreadBase()
@@ -37,12 +40,14 @@ namespace ShadowTester
         public void Pause()
         {
             _waitHandle.Reset();
+            _active = false;
             _waitHandle.WaitOne();
         }
 
         public void Resume()
         {
             _waitHandle.Set();
+            _active = true;
         }
 
         public void SetName(string threadName)
